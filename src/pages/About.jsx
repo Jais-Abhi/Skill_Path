@@ -220,7 +220,7 @@ const About = () => {
 
           <div className="relative">
             {/* Vertical line */}
-            <div className="absolute left-14 md:left-1/2 top-0 bottom-0 w-px bg-gradient-to-b from-amber-500/30 via-amber-500/10 to-transparent md:-translate-x-1/2" />
+            <div className="absolute left-14 md:left-1/2 top-0 bottom-0 w-px bg-gradient-to-b from-amber-400 via-orange-400 to-orange-500 md:-translate-x-1/2" />
 
             <div className="space-y-10">
               {timeline.map((item, i) => (
